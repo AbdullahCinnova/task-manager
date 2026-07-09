@@ -10,7 +10,8 @@
       "Bash(python task_manager.py add \"urgent thing\" high)",
       "Bash(python task_manager.py add \"urgent thing\" --priority high)",
       "Bash(python task_manager.py add \"someday task\" --priority low)",
-      "Bash(python task_manager.py --help)"
+      "Bash(python task_manager.py --help)",
+      "Bash(python task_manager.py add \"buy milk\")"
     ]
   }
 }
