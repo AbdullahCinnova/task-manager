@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python task_manager.py complete 1)",
+      "Bash(python task_manager.py list)",
+      "Bash(python task_manager.py delete 2)",
+      "Bash(python task_manager.py complete 99)",
+      "Bash(python task_manager.py add \"test task\")",
+      "Bash(python task_manager.py add \"bad priority\" --priority urgent)",
+      "Bash(python task_manager.py add \"urgent thing\" high)",
+      "Bash(python task_manager.py add \"urgent thing\" --priority high)",
+      "Bash(python task_manager.py add \"someday task\" --priority low)"
+    ]
+  }
+}
